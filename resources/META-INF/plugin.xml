@@ -1,0 +1,24 @@
+<idea-plugin>
+  <id>org.example.nooberMvpPlugin</id>
+  <name>nooberMvpGenerate</name>
+  <version>1.0</version>
+  <vendor email="xiaoqidev@gmail.com" url="https://github.com/JavaNoober">noober</vendor>
+  <description><![CDATA[
+    noober Mvp Generate
+    ]]></description>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="173.0"/>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="com.noober.plugin.MvpAction" class="com.noober.plugin.MvpAction" text="nooberMvp">
+      <add-to-group group-id="NewGroup" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>

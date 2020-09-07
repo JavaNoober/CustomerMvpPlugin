@@ -1,0 +1,10 @@
+package &package&
+
+import com..daggercore.presenter.BaseDaggerPresenter
+
+class &Prefix&Presenter: BaseDaggerPresenter<&Prefix&View>(){
+
+	fun doFunction(){
+
+	}
+}

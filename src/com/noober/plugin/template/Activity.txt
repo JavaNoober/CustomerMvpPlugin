@@ -1,0 +1,17 @@
+package &package&
+
+import android.os.Bundle
+import com.baidao.noober.R
+import com.baidao.noober.framework.nooberDaggerActivity
+
+class &Prefix&Activity : nooberDaggerActivity<&Prefix&Presenter, &Prefix&View>(), &Prefix&View {
+
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		setContentView(R.layout.&layoutName&)
+		presenter.doFunction()
+	}
+
+	override fun updateView() {
+	}
+}
